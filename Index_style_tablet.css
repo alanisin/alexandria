@@ -54,25 +54,29 @@ footer{
     display: flex;
     flex-wrap: wrap;
     width: 100%;
-    height: 700px;
+    height: auto;
     align-items: center;
 }
 .section_1_text{
     background-color:white;
-    order: 1;
+    order: 2;
     color: #404040;
-width: 100%;
+width: 50%;
 height: 320px;
 display: flex;
 flex-wrap: wrap;
 justify-content: center;
 align-items: center;
 }
+.section_1_terms{
+    width: 90%;
+    height: auto;
 
+}
 
 .section_1_text h1{
     width: 100%;
-    font-size: 8vw;
+    font-size: 4vw;
 height: auto;
 text-align: start;
 margin-top: auto;
@@ -82,7 +86,7 @@ margin-right: 5%;
 }
 .section_1_text h2{
     width: 100%;
-    font-size: 4vw;
+    font-size: 2vw;
     height: auto;
     font-weight: 800;
     text-align: start;
@@ -122,14 +126,12 @@ margin-right: 5%;
     border-color: #00B3F5;
         }
     .section_1_text p{
-        margin-top: 10px;
-        margin-bottom: 10px;
         width: 100%;
         font-size: 10px;
-        height: 50px;
-        text-align: center;
-        justify-content: center;
-        
+        height: auto;
+        text-align: start;
+        margin-left: 5%;
+    margin-right: 5%;
         }
         .boton-secundario{
             cursor: pointer;
@@ -151,24 +153,24 @@ margin-right: 5%;
             .boton-secundario:hover{
                 box-shadow: 0 1px 6px 0 #00B3F5;
                 }
-
             .section_1_text p{
-                width: 90%;
+                width: 100%;
                 font-size: 10px;
                 height: auto;
-                text-align: center;
-                
+                text-align: start;
+                margin-left: 5%;
+            margin-right: 5%;
                 }
         
 
 
 .section_1_image{
-    order: 2;
+    order: 1;
    background-image: url(./img/banner\ alexandria.png);
    background-position: center;
    background-size:cover;
-   width: 100%;
-height: 320px;
+   width: 50%;
+height: 600px;
 size: 1.6rem;
 display: flex;
 align-items: center;
