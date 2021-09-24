@@ -9,7 +9,8 @@
     font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 body{
-max-width: 1444px;
+max-width: 1020px;
+max-height: 800px;
 height: auto;
 min-width: 320px;
 margin-left: auto;
@@ -55,14 +56,14 @@ footer{
     flex-wrap: wrap;
     width: 100%;
     height: auto;
+    max-height:600px;
     align-items: center;
 }
 .section_1_text{
     background-color:white;
     order: 2;
     color: #404040;
-width: 50%;
-height: 320px;
+width: 40%;
 display: flex;
 flex-wrap: wrap;
 justify-content: center;
@@ -169,7 +170,7 @@ margin-right: 5%;
    background-image: url(./img/banner\ alexandria.png);
    background-position: center;
    background-size:cover;
-   width: 50%;
+   width: 60%;
 height: 600px;
 size: 1.6rem;
 display: flex;
