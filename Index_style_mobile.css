@@ -49,6 +49,7 @@ footer{
 
 /*---------------------------------------------------------------------------seccion 1*/
 .section_1{
+    margin-top: 10px;
     background-color: white;
     display: flex;
     flex-wrap: wrap;
@@ -75,7 +76,7 @@ align-items: center;
 
 .section_1_text h1{
     width: 100%;
-    font-size: 5vh;
+    font-size: 8vw;
 height: auto;
 text-align: start;
 margin-top: auto;
@@ -85,9 +86,9 @@ margin-right: 5%;
 }
 .section_1_text h2{
     width: 100%;
-    font-size: 12px;
+    font-size: 4vw;
     height: auto;
-    font-weight: 100;
+    font-weight: 800;
     text-align: start;
     margin-top: auto;
     margin-bottom: auto;
@@ -103,7 +104,7 @@ margin-right: 5%;
     border: 0px solid #FFC000;
     
 }
-.boton-generico{
+.boton-primario{
     cursor: pointer;
     margin-top: 10px;
     width: 90%;
@@ -120,7 +121,7 @@ margin-right: 5%;
     
     }
 
-    .boton-generico:hover{
+    .boton-primario:hover{
         box-shadow: 0 1px 6px 0 #00B3F5;
     border-color: #00B3F5;
         }
@@ -132,6 +133,35 @@ margin-right: 5%;
         margin-left: 5%;
     margin-right: 5%;
         }
+        .boton-secundario{
+            cursor: pointer;
+            margin-top: 10px;
+            width: 90%;
+            height: 50px;
+            background-color: white;
+            border: 0;
+            font-size: 14px;
+            font-weight: 600;
+            color: #00B3F5; 
+            border-radius: 5px;
+            padding: 0 15px;
+            border: 1px solid #00B3F5;
+            border-radius: 10px;
+            
+            }
+        
+            .boton-secundario:hover{
+                box-shadow: 0 1px 6px 0 #00B3F5;
+                }
+            .section_1_text p{
+                width: 100%;
+                font-size: 10px;
+                height: auto;
+                text-align: start;
+                margin-left: 5%;
+            margin-right: 5%;
+                }
+        
 
 
 .section_1_image{
