@@ -21,7 +21,7 @@ body {
 }
 
 header {
-    background-color: #dfcfcf;
+    background-color: #ffffff;
     width: 100vw;
     height: 50px;
     display: flex;
@@ -60,7 +60,7 @@ header {
     height: 50px;
     position: fixed;
     left: 75vw;
-    top: 80vh;
+    top: 85vh;
     background-color: rgba(29, 29, 31, 0.712);
     border-radius: 40px 40px 40px 40px;
 }
@@ -70,14 +70,14 @@ header {
     width: 100vw;
 }
 .seccionb{
-    background-color: rgba(26, 26, 199, 0.712);
+    background-color: rgba(110, 110, 240, 0.712);
     height: 200vh;
     width: 100vw;
 
 }
 a:hover .menu
 {
-    background-color: thistle;
+    background-color: rgb(255, 255, 255);
     display: block;
 }
 
