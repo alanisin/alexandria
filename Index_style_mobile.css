@@ -56,13 +56,14 @@ header {
     margin-left: 15px;
     background-image: url(./img/flotante.png);
     background-size: cover;
-    width: 50px;
-    height: 50px;
+    width: 60px;
+    height: 60px;
     position: fixed;
     left: 75vw;
     top: 85vh;
     background-color: rgba(29, 29, 31, 0.712);
     border-radius: 40px 40px 40px 40px;
+    z-index: +5;
 }
 .secciona{
   
