@@ -77,20 +77,20 @@ header {
 
 .Tarjeta-principal{
     background-color: rgb(255, 255, 255);
-    height: 150vw;
+    height: 200vw;
     width: 100%;
     margin-top: 10px;
     margin-bottom: 10px;
 }
 .titulo{
-    background-color: rgb(156, 41, 41);
+    background-color: rgb(12, 12, 12);
     height: 25vw;
     width: 100%;
 
 }
 .contenido{
-    background-color: rgb(68, 156, 41);
-    height:100vw;
+    background-color: rgb(10, 10, 10);
+    height:150vw;
     width: 100%;
     display: flex;
     align-items: center;
@@ -98,11 +98,11 @@ header {
 
 }
 video{
-    height: auto;
+    height: 150vw;
     width: 100vw;
 }
 .funciones{
-    background-color: rgb(41, 72, 156);
+    background-color: rgb(10, 10, 10);
     height: 25vw;
     width: 100%;
 
