@@ -10,50 +10,45 @@
 }
 
 body {
-    background-color: rgb(80, 184, 66);
+    background-color: rgb(56, 58, 56);
     height: auto;
-    width: 100%;
+    width: 100vw;
     margin-left: auto;
     margin-right: auto;
     display: flex;
     flex-direction: column;
     position: relative;
+align-items: center;
+overflow-x: hidden;
 }
 
 header {
+    
     background-color: #ffffff;
     width: 100vw;
-    height: 50px;
+    height: 30px;
     display: flex;
     justify-content: space-between;
     border-radius: 0px 0px 10px 10px;
     position: fixed;
-    overflow-x: hidden;
-}
-.menu{
-    background-color: aqua;
-    width: 200px;
-    height: 800px;
-    display: none;
-
+   
 }
 
 .logo-container {
-    width: 50%;
+    width: 100%;
     display: flex;
     align-items: center;
+    justify-content: center;
     
 }
 
-.logo {
-    margin-left: 15px;
+.logo  {
     background-image: url(./img/usuario.png);
     background-size: cover;
-    width: 35px;
-    height: 35px;
+    width: 20px;
+    height: 20px;
 }
-.logoh {
-    margin-left: 15px;
+.flotante {
     background-image: url(./img/flotante.png);
     background-size: cover;
     width: 60px;
@@ -61,113 +56,18 @@ header {
     position: fixed;
     left: 75vw;
     top: 85vh;
-    background-color: rgba(29, 29, 31, 0.712);
-    border-radius: 40px 40px 40px 40px;
-    z-index: +5;
 }
-.secciona{
+.Contenedor-principal{
   
     height: 100vh - 50px;
     width: 100vw;
 }
-.seccionb{
-    background-color: rgba(110, 110, 240, 0.712);
-    height: 200vh;
-    width: 100vw;
-
-}
-a:hover .menu
-{
-    background-color: rgb(255, 255, 255);
-    display: block;
-}
-
-.nav-container {
-    margin-right:15px;
-    width: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: end;
-}
-
-ul {
-    display: flex;
-    align-items: center;
-    justify-content: end;
-}
-
-li {
-    margin: 10px;
-}
-
-a {
-    color: white;
-}
-
-main{
+.Tarjeta-principal{
+    background-color: rgb(21, 21, 21);
+    height: 700px;
     width: 100%;
-    height: 90vh;
-    display: flex;
-    flex-direction: column;
-
-}
-.seccion1{
-   
-    width: 100%;
-    height: 25vh;
-    font-size: 5rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-weight: 700;
-    color: green;
-}
-.seccion2{
-    background-color: blue;
-    width: 100%;
-    height: 25vh;
-    font-size: 3rem;
-}
-.seccion3{
-    background-color: purple;
-    width: 100%;
-    height: 40vh;
-    font-size: 3rem;
-}
-footer{
-    background-color:rgb(231, 231, 231);
-    width: 100%;
-    height: 5vh;
-    
+    margin-top: 5px;
 }
 
-.seccion2 input{
-    width: 25vw;
-    height:35px;
-    border-radius: 10px;
-    border: 1px solid #7a7a7a;   
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-::placeholder
 
-.seccion2 input ::placeholder{
-    color: greenyellow;
-}
-.boton-buscar{
-    margin-top: 10px;
-    width:25vw;
-    height: 50px;
-    background-color: #FFC000;
-    border: 0;
-    font-size: 1.5rem;
-    font-weight: 600;
-    color: white;
-    border-radius: 5px;
-    padding: 0 15px;
-    border: 1px solid #FFC000;
-    border-radius: 10px;
-    text-align: center;
-    
-    }
+
