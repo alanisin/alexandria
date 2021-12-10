@@ -42,13 +42,7 @@ header {
     justify-content: center;
 }
 
-.logo  {
-   
-    background-size: cover;
-    width: 20px;
-    height: 20px;
-}
-   
+.logo  {background-size: cover;width: 20px;height: 20px;}
 .logoa {background-image: url(./img/casa.png);}
 .logob {background-image: url(./img/campana.png);}
 .logoc {background-image: url(./img/grafico-de-barras.png.crdownload);}
@@ -71,8 +65,9 @@ header {
     width: 60px;
     height: 60px;
     position: fixed;
-    left: 75vw;
-    top: 80vh;
+    left: 80vw;
+    top: 88vh;
+   
 }
 .Contenedor-principal{
     background-color: rgb(48, 130, 0);
@@ -126,4 +121,29 @@ video{
 
 
 
-/*----------------------------------------------------------------------------> Menu style
+/*----------------------------------------------------------------------------> Menu style*/
+.menu{
+    position: fixed;
+    left: 75vw;
+    width: 25vw;
+    height: 100vh;
+    background-color: brown;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+.option-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.op  { background-size: cover;width: 50px;height:50px;}
+.op1 {background-image: url(./img/casa.png);}
+.op2 {background-image: url(./img/campana.png);}
+.op3 {background-image: url(./img/grafico-de-barras.png.crdownload);}
+.op4 {background-image: url(./img/campana.png);}
+.op5 {background-image: url(./img/campana.png);}
+.op6 {background-image: url(./img/campana.png);}
+.op7 {background-image: url(./img/campana.png);}
