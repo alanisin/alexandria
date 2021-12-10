@@ -6,221 +6,126 @@
     text-decoration: none;
     border: none;
     outline: none;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-}
-body{
-max-width: 1020px;
-max-height: 800px;
-height: auto;
-min-width: 320px;
-margin-left: auto;
-margin-right: auto;
+    font-family: Arial, Helvetica, sans-serif
 }
 
-html {
-    font-size: 62.5%;
-}
+body {
 
-.container{
+    margin-left: auto;
+    margin-right: auto;
     display: flex;
-    flex-wrap: wrap;
-    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
 }
 
-.header, footer, .section_1, .section_2, .section_3 {
+header {
+    background-color: #77dd77;
     width: 100%;
-    min-width: 150px;
-    height: 300px;
-    
-}
-header{
-    background-color:white;
-    width: 100%;
-    height: 60px;
+    height: 5vh;
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-between;
+}
+
+.logo-container {
+    width: 50%;
+    display: flex;
     align-items: center;
-    
+}
+
+.logo {
+    margin-left: 15px;
+    background-image: url(https://i1.wp.com/acalu.es/wp-content/uploads/2015/10/Perfil-capuchas-x1000.png?resize=300%2C300);
+    background-size: cover;
+    width: 35px;
+    height: 35px;
+}
+
+.nav-container {
+    margin-right:15px;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+li {
+    margin: 10px;
+}
+
+a {
+    color: white;
+}
+
+main{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+
+}
+.seccion1{
+   
+    width: 100%;
+    height: 25vh;
+    font-size: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    color: green;
+}
+.seccion2{
+    background-color: blue;
+    width: 100%;
+    height: 25vh;
+    font-size: 3rem;
+}
+.seccion3{
+    background-color: purple;
+    width: 100%;
+    height: 40vh;
+    font-size: 3rem;
 }
 footer{
-    background-color:red;
+    background-color:rgb(231, 231, 231);
     width: 100%;
-    height: 200px;
-}
-
-/*---------------------------------------------------------------------------seccion 1*/
-.section_1{
-    background-color: white;
-    display: flex;
-    flex-wrap: wrap;
-    width: 100%;
-    height: auto;
-    max-height:600px;
-    align-items: center;
-}
-.section_1_text{
-    background-color:white;
-    order: 2;
-    color: #404040;
-width: 40%;
-display: flex;
-flex-wrap: wrap;
-justify-content: center;
-align-items: center;
-}
-.section_1_terms{
-    width: 90%;
-    height: auto;
-
-}
-
-.section_1_text h1{
-    width: 100%;
-    font-size: 4rem;
-height: auto;
-text-align: start;
-margin-top: auto;
-margin-bottom: auto;
-margin-left: 5%;
-margin-right: 5%;
-}
-.section_1_text h2{
-    width: 100%;
-    font-size: 2rem;
-    height: auto;
-    font-weight: 800;
-    text-align: start;
-    margin-top: auto;
-    margin-bottom: auto;
-    margin-left: 5%;
-    margin-right: 5%;
-
-}
-
-.section_1_text input{
-    width: 90%;
-    height:50px;
-    border-radius: 5px;
-    border: 0px solid #FFC000;
+    height: 5vh;
     
 }
-.boton-primario{
-    cursor: pointer;
+
+.seccion2 input{
+    width: 25vw;
+    height:35px;
+    border-radius: 10px;
+    border: 1px solid #7a7a7a;   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+::placeholder
+
+.seccion2 input ::placeholder{
+    color: greenyellow;
+}
+.boton-buscar{
     margin-top: 10px;
-    width: 90%;
+    width:25vw;
     height: 50px;
-    background-color: #00B3F5;
+    background-color: #FFC000;
     border: 0;
-    font-size: 14px;
+    font-size: 1.5rem;
     font-weight: 600;
-    color: white; 
+    color: white;
     border-radius: 5px;
     padding: 0 15px;
-    border: 1px solid #00B3F5;
+    border: 1px solid #FFC000;
     border-radius: 10px;
+    text-align: center;
     
     }
-
-    .boton-primario:hover{
-        box-shadow: 0 1px 6px 0 #00B3F5;
-    border-color: #00B3F5;
-        }
-    .section_1_text p{
-        width: 100%;
-        font-size: 10px;
-        height: auto;
-        text-align: start;
-        margin-left: 5%;
-    margin-right: 5%;
-        }
-        .boton-secundario{
-            cursor: pointer;
-            margin-top: 10px;
-            width: 90%;
-            height: 50px;
-            background-color: white;
-            border: 0;
-            font-size: 14px;
-            font-weight: 600;
-            color: #00B3F5; 
-            border-radius: 5px;
-            padding: 0 15px;
-            border: 1px solid #00B3F5;
-            border-radius: 10px;
-            
-            }
-        
-            .boton-secundario:hover{
-                box-shadow: 0 1px 6px 0 #00B3F5;
-                }
-            .section_1_text p{
-                width: 100%;
-                font-size: 10px;
-                height: auto;
-                text-align: start;
-                margin-left: 5%;
-            margin-right: 5%;
-                }
-        
-
-
-.section_1_image{
-    order: 1;
-   background-image: url(./img/banner\ alexandria.png);
-   background-position: center;
-   background-size:cover;
-   width: 60%;
-height: 600px;
-size: 1.6rem;
-display: flex;
-align-items: center;
-justify-content: center;
-}
-
-
-/*---------------------------------------------------------------------------seccion 2*/
-
-.section_2{
-    order: 3;
-    background-color: darkblue;
-}
-.section_3{
-    order: 4;
-    background-color: wheat;
-}
-
-.logo_img{
-
-    background-image:url(./img/alexandria\ logo.png);
-    width: 40px;
-    height: 40px;
-    background-position: center;
-    background-size: cover;
-    margin-top: auto;
-    margin-bottom: auto;
-    margin-left: 10px;
-}
-.navegation_bar{
-    background-color: tomato;
-    width: 0%;
-    height: auto;
-    visibility: hidden;
-}
-.login{
-    background-color: tomato;
-    width: 0%;
-    height: auto;
-    visibility: hidden;
-}
-.menu_img{
-    visibility: hidden;
-    background-image:url(./img/menu-icon.png);
-    width: 30px;
-    height: 25px;
-    background-position: center;
-    background-size: cover;
-    margin-top: auto;
-    margin-bottom: auto;
-    margin-right: 10px;
-}
