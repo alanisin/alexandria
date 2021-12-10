@@ -10,7 +10,7 @@
 }
 
 body {
-    background-color: rgb(56, 58, 56);
+    background-color: rgb(180, 180, 180);
     height: auto;
     width: 100vw;
     margin-left: auto;
@@ -24,12 +24,13 @@ overflow-x: hidden;
 
 header {
     
-    background-color: rgba(255, 255, 255, 0.774);
+    background-color: rgb(255, 255, 255);
     width: 100vw;
     height: 35px;
     display: flex;
     justify-content: space-between;
     border-radius: 0px 0px 5px 5px;
+    border-bottom: solid 1px rgb(105, 101, 103);
     position: fixed;
    
 }
@@ -69,15 +70,42 @@ header {
     top: 85vh;
 }
 .Contenedor-principal{
-  
+  margin-top: 35px;
     height: 100vh - 50px;
     width: 100vw;
 }
+
 .Tarjeta-principal{
-    background-color: rgb(21, 21, 21);
-    height: 700px;
+    background-color: rgb(255, 255, 255);
+    height: 150vw;
     width: 100%;
-    margin-top: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.titulo{
+    background-color: rgb(156, 41, 41);
+    height: 25vw;
+    width: 100%;
+
+}
+.contenido{
+    background-color: rgb(68, 156, 41);
+    height:100vw;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+video{
+    height: auto;
+    width: 100vw;
+}
+.funciones{
+    background-color: rgb(41, 72, 156);
+    height: 25vw;
+    width: 100%;
+
 }
 
 
