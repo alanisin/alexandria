@@ -58,7 +58,13 @@ header {
 .logog {background-image: url(./img/campana.png);}
 
 
-
+.logo-container-flotante{
+    width: 100vw;
+    height: 20vh;
+    background-color: black;
+    top: 80vh;
+    position: fixed;
+}
 .flotante {
     background-image: url(./img/flotante.png);
     background-size: cover;
@@ -119,3 +125,5 @@ video{
 }
 
 
+
+/*----------------------------------------------------------------------------> Menu style
