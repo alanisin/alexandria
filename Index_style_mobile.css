@@ -10,7 +10,9 @@
 }
 
 body {
-height: 200vh;
+    background-color: blanchedalmond;
+    height: auto;
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
     display: flex;
@@ -19,7 +21,6 @@ height: 200vh;
 }
 
 header {
-    margin-top: 50px;
     background-color: #dfcfcf;
     width: 100vw;
     height: 50px;
@@ -53,13 +54,21 @@ header {
 }
 .logoh {
     margin-left: 15px;
-    background-image: url(./img/7reasoons.png);
+    background-image: url(./img/flotante.png);
     background-size: cover;
-    width: 40px;
-    height: 40px;
+    width: 50px;
+    height: 50px;
     position: fixed;
     left: 75vw;
     top: 90vh;
+    background-color: rgba(29, 29, 31, 0.712);
+    border-radius: 40px 40px 40px 40px;
+}
+.secciona{
+  
+    height: 200vh;
+    width: 100vw;
+
 }
 a:hover .menu
 {
